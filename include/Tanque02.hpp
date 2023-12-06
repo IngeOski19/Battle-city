@@ -1,8 +1,8 @@
 #include <SFML/Graphics.hpp>
-class Alien2
+class Tanque02
 {
 public:
-    Alien2(sf::Vector2f position, sf::Color color)
+    Tanque02(sf::Vector2f position, sf::Color color)
     {       
         if (!texture.loadFromFile("assets/Images/spritesheet.png"))
         {

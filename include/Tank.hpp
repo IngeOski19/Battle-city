@@ -1,8 +1,8 @@
 #include <SFML/Graphics.hpp>
-class Nave
+class Tank
 {
 public:
-    Nave(sf::Vector2f position, sf::Color color)
+    Tank(sf::Vector2f position, sf::Color color)
     {       
         if (!texture.loadFromFile("assets/Images/spritesheet.png"))
         {

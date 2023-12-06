@@ -1,8 +1,8 @@
 #include <SFML/Graphics.hpp>
-class Personaje
+class Hero
 {
 public:
-    Personaje(sf::Vector2f position, sf::Color color)
+    Hero(sf::Vector2f position, sf::Color color)
     {
         // Cargar la imagen desde un archivo
         if (!texture.loadFromFile("assets/Images/TestSources/pikachu.png")){

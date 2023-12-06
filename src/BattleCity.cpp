@@ -1,11 +1,11 @@
 #include <SFML/Graphics.hpp>
-#include <Alien1.hpp>
-#include <Alien2.hpp>
-#include <Alien3.hpp>
-#include <Nave.hpp>
+#include <Tanque01.hpp>
+#include <Tanque02.hpp>
+#include <Tanque03.hpp>
+#include <Tank.hpp>
 #include <Jugador.hpp>
-#include <Personaje.hpp>
-#include <Protector.hpp>
+#include <Hero.hpp>
+#include <Barrera.hpp>
 double velocidad = 0.2;
 
 int main()
@@ -14,19 +14,19 @@ int main()
 
     Nave ship(sf::Vector2f(10, 10), sf::Color::Red);
     Jugador player(sf::Vector2f(350, 525), sf::Color::Green);
-    Alien1 enemy1(sf::Vector2f(150, 100), sf::Color::White);
-    Alien1 enemy2(sf::Vector2f(350, 100), sf::Color::White);
-    Alien1 enemy3(sf::Vector2f(550, 100), sf::Color::White);
-    Alien2 enemy4(sf::Vector2f(75, 175), sf::Color::White);
-    Alien2 enemy5(sf::Vector2f(275, 175), sf::Color::White);
-    Alien2 enemy6(sf::Vector2f(475, 175), sf::Color::White);
-    Alien2 enemy7(sf::Vector2f(675, 175), sf::Color::White);
-    Alien3 enemy8(sf::Vector2f(150, 250), sf::Color::White);
-    Alien3 enemy9(sf::Vector2f(350, 250), sf::Color::White);
-    Alien3 enemy10(sf::Vector2f(550, 250), sf::Color::White);
-    Protector barrier1(sf::Vector2f(150, 450), sf::Color::Green);
-    Protector barrier2(sf::Vector2f(350, 450), sf::Color::Green);
-    Protector barrier3(sf::Vector2f(550, 450), sf::Color::Green);
+    Tanque01 enemy1(sf::Vector2f(150, 100), sf::Color::White);
+    Tanque01 enemy2(sf::Vector2f(350, 100), sf::Color::White);
+    Tanque01 enemy3(sf::Vector2f(550, 100), sf::Color::White);
+    Tanque02 enemy4(sf::Vector2f(75, 175), sf::Color::White);
+    Tanque02 enemy5(sf::Vector2f(275, 175), sf::Color::White);
+    Tanque02 enemy6(sf::Vector2f(475, 175), sf::Color::White);
+    Tanque02 enemy7(sf::Vector2f(675, 175), sf::Color::White);
+    Tanque03 enemy8(sf::Vector2f(150, 250), sf::Color::White);
+    Tanque03 enemy9(sf::Vector2f(350, 250), sf::Color::White);
+    Tanque03 enemy10(sf::Vector2f(550, 250), sf::Color::White);
+    Barrera barrier1(sf::Vector2f(150, 450), sf::Color::Green);
+    Barrera barrier2(sf::Vector2f(350, 450), sf::Color::Green);
+    Barrera barrier3(sf::Vector2f(550, 450), sf::Color::Green);
 
     while (window.isOpen())
     {

@@ -1,9 +1,9 @@
 #include <SFML/Graphics.hpp>
 
-class Protector
+class Barrera
 {
 public:
-    Protector(sf::Vector2f position, sf::Color color)
+    Barrera(sf::Vector2f position, sf::Color color)
     {       
         if (!texture.loadFromFile("assets/Images/spritesheet.png"))
         {
