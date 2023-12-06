@@ -28,31 +28,31 @@ Si el enemigo parpadea, cada golpe crea un nuevo elemento de bonificación en un
     
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/enemy_a.png) A:
 
-     - objetivo: jugador más cercano o águila
-  - velocidad: normal
+     - objetivo: jugador más cercano o águila.
+  - velocidad: normal.
   - comportamiento: 80% para moverse hacia el objetivo, 20% para moverse en dirección aleatoria,
-dispara constantemente en la dirección del movimiento
+dispara constantemente en la dirección del movimiento.
 
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/enemy_b.png) B:
 
-  - objetivo: águila
-  - velocidad: 1,3 * normal
+  - objetivo: águila.
+  - velocidad: 1,3 * normal.
   - comportamiento: 50% para moverse hacia el objetivo, 50% para moverse en dirección aleatoria,
-dispara constantemente en la dirección del movimiento
+dispara constantemente en la dirección del movimiento.
 
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/enemy_c.png) C:
 
-  - objetivo: águila
-  - velocidad: normal
+  - objetivo: águila.
+  - velocidad: normal.
   - comportamiento: 50% para moverse hacia el objetivo, 50% para moverse en dirección aleatoria,
-dispara constantemente en la dirección del movimiento
+dispara constantemente en la dirección del movimiento.
 
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/enemy_d.png) D:
 
-  -  objetivo: jugador más cercano o águila
-  -  velocidad: normal
+  -  objetivo: jugador más cercano o águila.
+  -  velocidad: normal.
   - comportamiento: 50% para moverse hacia el objetivo, 50% para moverse en dirección aleatoria,
-dispara si el objetivo está delante de el
+dispara si el objetivo está delante de el.
 
 ## Items de Bonus:
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/bonus_grenade.png) Granada: todos los enemigos son destruidos.
@@ -70,6 +70,22 @@ dispara si el objetivo está delante de el
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/bonus_gun.png) Arma: igual que tres salidas. 
 
 + ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/bonus_boat.png) Barco: permite moverse sobre el agua.
+
+## Bloques en los niveles:
+
+Los niveles son archivos de texto sin formato que se encuentran en el directorio de niveles. Cada nivel es una matriz bidimensional con 26 filas y 26 columnas. Cada campo de la matriz debe ser uno de los siguientes elementos:
+
++ __#__ ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/brick.png) Pared de ladrillos: se puede destruir con dos balas o una si recoges tres estrellas o un arma.
+
++ __@__ ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/stone.png) Muro de piedra: solo se puede destruir si recolectas tres estrellas o un bono de arma.
+
++ __%__ ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/bush.png) Arbusto: solo se puede borrar si recolectas tres estrellas o un bono de arma.
+
++ __~__ ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/water.png) Agua: es un obstáculo natural a menos que consigas el bono de barco.
+
++ __-__ ![nombrux](https://github.com/krystiankaluzny/Tanks/raw/master/resources/img/ice.png) Hielo: los tanques resbalan.
+
++ __.__ ![nombrux](https://github.com/IngeOski19/Battle-city/blob/main/assets/Images/bird%20(1).png?raw=true) Águila: es la que debes proteger.
 
 # Es todo, que lo disfrutes...
 ![nombrux](https://img.itch.zone/aW1hZ2UvMjkzNTM4LzE0MzIwNTYuZ2lm/original/dRkVyi.gif)
