@@ -2,7 +2,7 @@
 #include <Tanque01.hpp>
 #include <Tanque02.hpp>
 #include <Tanque03.hpp>
-#include <Tank.hpp>
+#include <Nave.hpp>
 #include <Jugador.hpp>
 #include <Hero.hpp>
 #include <Barrera.hpp>
